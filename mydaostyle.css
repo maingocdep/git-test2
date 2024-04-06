@@ -1,0 +1,209 @@
+header
+{
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+#titre_principal
+{
+display: flex;
+flex-direction: column;
+}
+
+#logo
+{
+display: flex;
+flex-direction: row;
+align-items: baseline;
+}
+
+#logo img
+{
+width: 59px;
+height: 60px;
+}
+
+header h1
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2.5em;
+font-weight: normal;
+margin: 0 0 0 10px;
+}
+
+header h2
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.1em;
+margin-top: 0px;
+font-weight: normal;
+}
+
+header h1 span
+{
+color: #3D3AE0;
+}
+
+header h2 span
+{
+color: #3D3AE0;
+}
+nav ul
+{
+list-style: none;
+display: flex;
+}
+
+#apropos
+{
+margin-top: 15px;
+height: 200px;
+border-radius: 5px;
+background: url(image/Images/dao5.jpg) no-repeat;
+position: relative;
+box-shadow: 0px 4px 4px #85BDE0;
+margin-bottom: 25px;
+background-size: cover;
+}
+
+#presentation
+{
+position: absolute;
+bottom: 0;
+border-radius: 0px 0px 5px 5px;
+width: 99.5%;
+height: 33px;
+padding-top: 15px;
+padding-left: 4px;
+background-color: #3A6CE0;
+color: white;
+font-size: 0.8em;
+}
+
+.navbar
+{
+display: flex;
+position: relative;
+}
+
+nav li
+{
+margin-right: 15px;
+}
+
+nav a
+{
+font-size: 1.3em;
+color: ;
+}
+section
+{
+display: flex;
+margin-bottom: 20px;
+justify-content: center;
+}
+
+article, aside
+{
+text-align: justify;
+}
+
+article
+{
+margin-right: 20px;
+flex: 3;
+}
+
+article p
+{
+font-size: 0.8em;
+}
+
+aside
+{
+flex: 1.2;
+position: relative;
+background-color: #3A6CE0;
+box-shadow: 0px 2px 5px #85BDE0;
+border-radius: 5px;
+padding: 10px;
+color: white;
+font-size: 0.9em;
+}
+
+aside
+{
+text-align: center;
+}
+aside img
+{
+border: 1px solid #85BDE0;
+margin-right: 5px;
+width: 200px;
+}
+#icon
+{
+width: 50%;
+text-align: left;
+}
+
+#icon a
+{
+display: inline-block;
+margin: 0 15px;
+font-size: 1.3em;
+color: white;
+
+}
+
+#icon a:hover
+{
+transform: scale(1.5s);
+transition: 0.1s;
+}
+footer 
+{
+background-color: #3790ED;
+color: black;
+padding: 20px 0 10px 0;
+text-align: center;
+}
+
+form
+{
+margin: 0 auto;max-width: 900px;
+}
+
+input, textarea, button
+{
+border: none;
+width: 55%;
+padding: 15px 10px;
+margin: 1px 0;
+font-size: 1.2em;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 8px;
+}
+
+button:hover
+{
+background-color: #5137ED;
+color: white;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+}
+
+#copyright_icon
+{
+display: flex;
+margin-bottom: 20px;
+padding: 0 10%;
+}
+
+#copyright
+{
+width: 50%;
+text-align: left;
+color: black;
+}
